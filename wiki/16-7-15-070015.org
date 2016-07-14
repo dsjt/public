@@ -2,11 +2,16 @@
 アウトライン文書を編集するためのメジャーモード．
 (describe-function 'outline-mode)
 
+** outline-regexp
 outline-regexp を設定して，見出し判定をいじることができる．
+
+** outline-level
 outline-level で階層の深さ判定をいじれる．
+
 outline-levelという変数に入っている関数が，判定に使われる．
 引数なしの，数値返す関数を指定する．
 
+** redmine設定
 redmineのwiki記法に合わせると，以下のようになる．
 #+name: redmine config
 #+begin_src elisp
