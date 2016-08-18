@@ -322,10 +322,13 @@ https://github.com/dsjt/public-content/blob/master/wiki/splatoon.org
 ** デカライン
 
 *** 攻撃
+追い打ちメガホンは割と有効
 
 *** 防衛
 
 *** 使いたいブキ
+- L3リール:
+- ボールド:聖地
 
 * ホコ
 ** 共通
