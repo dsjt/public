@@ -33,7 +33,7 @@ Orgというマークアップ言語について紹介する。
   - マークアップ言語の例 ... HTML,markdown,tex
 - Emacsにおける、Org専用の編集機能を、org-modeという
 
-** 以下、org-modeのHPから抜粋
+** 以下、org-mode[fn:1]のHPから抜粋
 
 #+BEGIN_QUOTE :width 300px
 Org-modeは、ノートの保存、TODOリストの管理、プロジェクト計画のためのモードです。高速で効率的なプレーンテキストのシステムを使ってファイルを編集します。
@@ -139,3 +139,7 @@ TODOタグが割り当てられた見出しを一覧表示
 本紹介もorg-modeで作成されました(org-reveal)
 
 エクスポート機能も豊富！
+
+* Footnotes
+
+[fn:1] https://www.orgmode.org/ja/index.html
