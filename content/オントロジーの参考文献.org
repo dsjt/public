@@ -1,6 +1,5 @@
-*  オントロジー・RDF
-** 参考ウェブサイト
-*** DBCLSデータベースRDF化ガイドライン
+*  オントロジー・RDF 参考ウェブサイト
+** DBCLSデータベースRDF化ガイドライン
 [[https://github.com/dbcls/rdfizing-db-guidelines/blob/master/dbcls-rdfizing-db-guidelines-ja.md][DBCLSデータベースRDF化ガイドライン]]
 
 RDF化のガイドライン。わかりやすく指針が書かれており、非常に有用である。
@@ -8,7 +7,7 @@ RDF化のガイドライン。わかりやすく指針が書かれており、�
 一点、単位の記述方法には疑問がある。sio:has-unitの値域はsio:SIO_000074クラスが指定されており、UOの単位はそのクラスのインスタンスではない。sio:SIO_000074クラスとuo:unitクラスを結びつける言明が必要ではなかろうか。今のところ見つけられていない。
 
 ただし、[[https://pubchemdocs.ncbi.nlm.nih.gov/rdf$_2][Pubchem RDF]]にも同じ用法があるし、[[https://jbiomedsem.biomedcentral.com/articles/10.1186/2041-1480-5-14][ある論文]]にも同じ記載がある。chemblでは採用していない。
-*** W3CによるOWLの説明 の和訳
+** W3CによるOWLの説明 の和訳
 
 - [[http://www.asahi-net.or.jp/~ax2s-kmtn/internet/rec-owl-features-20040210.html][OWLウェブ・オントロジー言語概要]]
 - [[http://www.asahi-net.or.jp/~ax2s-kmtn/internet/rec-owl-guide-20040210.html][OWLウェブ・オントロジー言語ガイド]]
@@ -18,21 +17,21 @@ RDF化のガイドライン。わかりやすく指針が書かれており、�
 - [[http://www.asahi-net.or.jp/~ax2s-kmtn/internet/rec-webont-req-20040210.html][OWLウェブ・オントロジー言語ユースケースおよび要件]]
 
 OWLの使い方や文法などは、ガイドとレファレンスが参考になる。
-*** 神崎氏によるオントロジー・RDF周りの解説
+** 神崎氏によるオントロジー・RDF周りの解説
 - [[https://kanzaki.com/docs/sw/][メタ情報とセマンティック・ウェブ]]
 全ては読み切れていない。丁寧に書かれており、読みやすい。
 
-*** 上綱氏によるW3C仕様の和訳など
+** 上綱氏によるW3C仕様の和訳など
 - [[https://www.asahi-net.or.jp/~ax2s-kmtn/spec.html][仕様等の和訳 - CyberLibrarian]]
 
 非常に多くのW3Cの勧告を和訳されており、RDF入門あたりは非常に参考になった。OWLの和訳も上綱氏によるもの。
-*** 本：知の科学 オントロジー工学 溝口理一郎
+** 本：知の科学 オントロジー工学 溝口理一郎
 オントロジーの理論面について詳しめに記述されている。一方、RDFやRDFSなどについてはほとんど触れられていない。どのような枠組みで記述するかではなく、どのような概念定義をするべきかなどが記載されている。
 
 例えば、「人間 is-a 生き物, かつ 人間 is-a 有形物」という定義の何が間違いなのかなどを説明している。オントロジー構築時には参考になる。
-*** 本：オントロジー構築入門 溝口理一郎ら
+** 本：オントロジー構築入門 溝口理一郎ら
 
-*** オントロジーそれ自体
+** オントロジーそれ自体
 - [[https://www.w3.org/2002/07/owl#][owl]]
 - [[https://github.com/MaastrichtU-IDS/semanticscience][sio]] 科学用語
 - [[https://bioportal.bioontology.org/ontologies/UO][uo]] 単位
