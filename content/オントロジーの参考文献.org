@@ -4,9 +4,6 @@
 
 RDF化のガイドライン。わかりやすく指針が書かれており、非常に有用である。
 
-一点、単位の記述方法には疑問がある。sio:has-unitの値域はsio:SIO_000074クラスが指定されており、UOの単位はそのクラスのインスタンスではない。sio:SIO_000074クラスとuo:unitクラスを結びつける言明が必要ではなかろうか。今のところ見つけられていない。
-
-ただし、[[https://pubchemdocs.ncbi.nlm.nih.gov/rdf$_2][Pubchem RDF]]にも同じ用法があるし、[[https://jbiomedsem.biomedcentral.com/articles/10.1186/2041-1480-5-14][ある論文]]にも同じ記載がある。chemblでは採用していない。
 ** W3CによるOWLの説明 の和訳
 
 - [[http://www.asahi-net.or.jp/~ax2s-kmtn/internet/rec-owl-features-20040210.html][OWLウェブ・オントロジー言語概要]]
